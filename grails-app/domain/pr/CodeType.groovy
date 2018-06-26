@@ -10,4 +10,8 @@ class CodeType extends Stamp {
 
     static constraints = {
     }
+
+    static mapping = {
+        discriminator column: 'discriminator', maxSize: 30
+    }
 }

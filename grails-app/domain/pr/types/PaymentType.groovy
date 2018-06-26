@@ -16,6 +16,7 @@ class PaymentType extends CodeType {
         CREDIT('Credit', 'credit'),
         REFUND('Refund', 'refund'),
         SETTLEMENT('Settlement', 'settlement'),
+        MISCELLANEOUS('Miscellaneous', 'miscellaneous'),
         PENALTY('Penalty', 'penalty')
 
         private final String name

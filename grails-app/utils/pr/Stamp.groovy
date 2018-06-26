@@ -33,10 +33,5 @@ abstract class Stamp {
 
     void beforeValidate() {
 
-        if (!user) {
-            throw new NullPropertyException(transients)
-        }
-
-        doTimestamp()
     }
 }
